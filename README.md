@@ -6,7 +6,7 @@ A full system of Indian Premier League
 ---
 
 
-##Contributing
+## Contributing
 1. **Fork** the repository.
 2. **Clone** the project in your machine.
 3. **Commit** changes to developer branch.
@@ -15,7 +15,7 @@ A full system of Indian Premier League
 
 
 
-##Build with 
+## Build with 
 * HTML
 * CSS
 * JavaScript
