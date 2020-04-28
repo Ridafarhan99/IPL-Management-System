@@ -24,12 +24,12 @@ A full system of Indian Premier League
 
 ## Step 1
 1. Create database
-'''
+```
 CREATE DATABASE ipl
-'''
+```
 
 2. Create table fixture
-'''
+```
 CREATE TABLE fixture (
     date DATE NOT NULL,
     team1 VARCHAR(50) NOT NULL,
@@ -41,10 +41,12 @@ CREATE TABLE fixture (
     team1s INT(4) NOT NULL,
     team2s INT(4) NOT NULL
 );
-'''
+
+```
 
 3. Create table points
-'''
+
+```
 CREATE TABLE points (
     team VARCHAR(50) NOT NULL,
     pld INT(20) NOT NULL,
@@ -53,13 +55,16 @@ CREATE TABLE points (
     tied INT(20) NOT NULL,
     pts INT(20) NOT NULL,
 );
-'''
+
+```
 
 4. Create table users
-'''
+
+```
 CREATE TABLE users (
     username VARCHAR(50) NOT NULL,
     password VARCHAR(50) NOT NULL,
     c_password VARCHAR(50) NOT NULL
 );
-'''
+
+```
