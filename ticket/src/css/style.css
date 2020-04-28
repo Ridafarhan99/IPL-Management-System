@@ -1,0 +1,1322 @@
+                                                           /* AUTHOR: SUBHOMOY GHOSH AND RIDA FARHAN*/
+
+
+/*---------------------------------------------------------------GLOBAL ALLOCATION-----------------------------------------------------------------------*/
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------CSS FOR INDEX (START)----------------------------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------------------------------------BASIC HOMEPAGE-------------------------------------------------------------------------*/
+
+html {
+    
+    background-color:antiquewhite;
+    color: #626262;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px; 
+    text-rendering: optimizeLegibility;  
+}
+
+
+.row {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+
+header {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Graphics/Trophy.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    
+}
+
+
+.hero-text-box {
+    
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    
+    margin-top: 0; 
+    margin-bottom: 20px;
+    color:floralwhite;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    
+}
+
+
+
+
+/*-------------------------------------------------------------------BUTTONS--------------------------------------------------------------------------*/
+
+.btn:link,
+.btn:visited {
+    
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 150px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: floralwhite;
+    margin-right: 15px;
+    
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    
+}
+
+
+.btn:hover,
+.btn:active {
+    
+    background-color: #bf6516
+        
+}
+
+.btn-full:hover,
+.btn-full:active {
+    
+    border: 1px solid #e67e22;
+    
+}
+
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    
+    border: 1px solid #e67e22;
+    color:floralwhite; 
+    
+}
+
+
+
+
+/*-----------------------------------------------------------------MAIN NAVIGATON BAR---------------------------------------------------------------------*/
+
+.main-nav {
+    
+    float:right;
+    list-style: none;
+    margin-top: 50px;
+    
+}
+
+
+.main-nav li {
+    
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    
+    padding: 10px 0;
+    color:floralwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    
+    border-bottom: 2px solid #e67e22;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------------STICKY NAVIGATON BAR--------------------------------------------------------------*/
+
+.sticky {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98); 
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 999;
+    
+}
+
+
+.sticky .main-nav {
+    
+    margin-top: 17px;
+
+}
+
+
+
+.sticky .main-nav li a:visited {
+    
+    padding: 15px 0;
+    color: #555;
+    
+ }
+
+
+
+
+/*-----------------------------------------------------------------MORE ABOUT US---------------------------------------------------------------------------*/
+
+section {
+    
+     padding: 50px 0;
+    
+}
+
+
+h2 {
+    
+    margin-bottom: 20px;
+    font-size: 175%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+    
+}
+
+
+h2:after {
+    
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+
+.long-copy {
+    
+    line-height: 140%;
+    width: 70%;
+    margin-left: 15%; 
+    
+}
+
+
+.box {
+    
+    padding: 2%;
+    
+}
+
+
+.box p {
+    
+    font-size: 90%;
+    line-height: 145%; 
+    
+}
+
+
+h3 {
+    
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 125%;
+    margin-bottom: 17px;
+    
+}
+
+
+.icon-big {
+    
+    font-size: 375%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+        
+}
+
+
+
+
+/*------------------------------------------------------------------------BUY TICKETS------------------------------------------------------------------*/
+
+.section-ticket {
+    
+    background-color:bisque;
+    
+}
+
+
+.ticket-box {
+    background-color:blanchedalmond;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #dddbd9;
+    
+}
+
+
+.ticket-box div {
+    
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+
+
+.ticket-box div:first-child {
+    
+    background-color: #f2dcc9;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+
+.ticket-box div:last-child {
+    
+    text-align: center;
+    border: 0;
+}
+
+
+.ticket-price {
+    
+    font-size: 235%;
+    margin-bottom: 10px;
+    color: #e67e22;
+      
+}
+
+
+.ticket-price span {
+    
+    font-size: 50%;
+    
+}
+
+
+.ticket-location {
+    
+    font-size: 100%;
+}
+
+
+.ticket-box ul {
+    
+    list-style: none;
+
+}
+
+
+.ticket-box ul li {
+    
+    padding: 5px 0;
+    
+}
+
+
+
+
+
+/*----------------------------------------------------------------CSS FOR INDEX (END)----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------CSS FOR HISTORY (START)----------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------------------BACKGROUND SECTION------------------------------------------------------------------*/
+.history {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Graphics/History.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.history-box:first-child {
+    
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 3%;
+    
+}
+
+
+.history-box:last-child {
+    
+    margin-top: 50px;
+    padding-left: 3%;
+    
+}
+
+
+.history-image {
+    
+    width: 75%;
+    
+}
+
+
+.history-point {
+    
+    margin-bottom: 50px;
+    
+}
+
+
+.history-point div {
+    
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------FOUNDATION SECTION------------------------------------------------------------------*/
+
+.section-foundation {
+    
+    background-color:bisque;
+}
+
+
+.foundation-image {
+    
+    width: 100%;
+    
+}
+
+
+
+
+/*----------------------------------------------------------------------EXPANSION SECTION------------------------------------------------------------------*/
+
+.section-expansion {
+    
+    background-color:blanchedalmond;
+}
+
+
+.expansion-image {
+    
+    width: 115%;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------------TERMINATION SECTION------------------------------------------------------------------*/
+
+.section-termination {
+    
+    background-color:beige;
+}
+
+
+.termination-image {
+    
+    width: 100%;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------------CONTROVERSY SECTION------------------------------------------------------------------*/
+
+.section-controversy {
+    
+    background-color:bisque;
+}
+
+
+.controversy-image {
+    
+    width: 110%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------CSS FOR HISTORY (END)----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------CSS FOR AUCTION (START)-----------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------BACKGROUND SECTION------------------------------------------------------------------*/
+.auction {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Graphics/Auction.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+
+.auction-nav {
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float:right;
+    margin-top: 50px;
+    
+}
+
+
+
+.auction-nav li {
+    
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #e67e22;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.auction-nav li a {
+    
+    text-decoration: none;
+    color: floralwhite;
+    display: block;
+    
+}
+
+
+.auction-nav li a:hover {
+    
+    background-color: burlywood;
+    
+}
+
+
+.auction-nav li ul li {
+    
+    display: none;
+}
+
+
+.auction-nav li:hover ul li {
+    
+    display: block;
+    
+}
+
+
+
+.history-box:first-child {
+    
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 3%;
+    
+}
+
+
+.history-box:last-child {
+    
+    margin-top: 50px;
+    padding-left: 3%;
+    
+}
+
+
+.history-image {
+    
+    width: 75%;
+    
+}
+
+
+.history-point {
+    
+    margin-bottom: 50px;
+    
+}
+
+
+.history-point div {
+    
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2008 SECTION------------------------------------------------------------------*/
+
+.section-2008 {
+    
+    background-color:bisque;
+}
+
+
+.y2008-image {
+    
+    width: 100%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2009 SECTION------------------------------------------------------------------*/
+
+.section-2009 {
+    
+    background-color:beige;
+}
+
+
+.y2009-image {
+    
+    width: 60%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2010 SECTION------------------------------------------------------------------*/
+
+.section-2010 {
+    
+    background-color:blanchedalmond;
+}
+
+
+.y2010-image {
+    
+    width: 110%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2011 SECTION------------------------------------------------------------------*/
+
+.section-2011 {
+    
+    background-color:cornsilk;
+}
+
+
+.y2011-image {
+    
+    width: 110%;
+    
+}
+
+
+
+/*------------------------------------------------------------------2012 SECTION------------------------------------------------------------------*/
+
+.section-2012 {
+    
+    background-color:bisque;
+}
+
+
+.y2012-image {
+    
+    width: 110%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2013 SECTION------------------------------------------------------------------*/
+
+.section-2013 {
+    
+    background-color:beige;
+}
+
+
+.y2013-image {
+    
+    width: 110%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2014 SECTION------------------------------------------------------------------*/
+
+.section-2014 {
+    
+    background-color:blanchedalmond;
+}
+
+
+.y2014-image {
+    
+    width: 110%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2015 SECTION------------------------------------------------------------------*/
+
+.section-2015 {
+    
+    background-color:cornsilk;
+}
+
+
+.y2015-image {
+    
+    width: 110%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2016 SECTION------------------------------------------------------------------*/
+
+.section-2016 {
+    
+    background-color:bisque;
+}
+
+
+.y2016-image {
+    
+    width: 100%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2017 SECTION------------------------------------------------------------------*/
+
+.section-2017 {
+    
+    background-color:beige;
+}
+
+
+.y2017-image {
+    
+    width: 110%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2018 SECTION------------------------------------------------------------------*/
+
+.section-2018 {
+    
+    background-color:cornsilk;
+}
+
+
+.y2018-image {
+    
+    width: 100%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2019 SECTION------------------------------------------------------------------*/
+
+.section-2019 {
+    
+    background-color:bisque;
+}
+
+
+.y2019-image {
+    
+    width: 90%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------2020 SECTION------------------------------------------------------------------*/
+
+.section-2020 {
+    
+    background-color:beige;
+}
+
+
+.y2020-image {
+    
+    width: 110%;
+    
+}
+
+
+
+/*------------------------------------------------------------CSS FOR AUCTION (END)----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------CSS FOR TEAM (START)-----------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------LOGO SECTION----------------------------------------------------------------------*/
+
+.section-logo {
+    
+    padding: 0;
+    
+}
+
+
+
+
+.team {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Graphics/Team.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    
+}
+
+
+
+
+.logo-showcase {
+    
+    list-style: none;
+    width: 100%;
+    
+}
+
+
+
+
+.logo-showcase li {
+    
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+
+
+
+.logo-photo {
+    
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    
+}
+
+
+
+
+.logo-photo img {
+    
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+
+
+
+.logo-photo img:hover {
+    
+    opacity: 1;
+    transform: scale(1.03);
+
+    
+}
+
+
+
+
+/*-----------------------------------------------------------CSS FOR TABLE(ALL) (START)--------------------------------------------------------------------*/
+
+.tg  {
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    
+}
+
+
+
+
+.tg td, .tg th {
+    
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 13px 20px;
+    word-break: normal;
+
+}
+
+
+
+
+
+.tg .tg-0lax {
+    
+    text-align: left;
+    vertical-align: top
+        
+}
+
+
+
+/*----------------------------------------------------------------CSS FOR TABLE(CSK)---------------------------------------------------------------------*/
+
+.csk {
+    
+    background-color: #ffff3c;
+    
+}
+
+
+
+/*----------------------------------------------------------------CSS FOR TABLE(DC)---------------------------------------------------------------------*/
+
+.dc {
+    
+    background-color: #00008b;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(KXIP)-------------------------------------------------------------------*/
+
+.kxip {
+    
+    background-color: #dcdddf;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(KKR)-------------------------------------------------------------------*/
+
+.kkr {
+    
+    background-color: #2e0584;
+    
+}
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(MI)-------------------------------------------------------------------*/
+
+.mi {
+    
+    background-color: #0c3665;
+    
+
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(RR)-------------------------------------------------------------------*/
+
+.rr {
+    
+    background-color: #cba92b;
+    
+
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(RCB)-------------------------------------------------------------------*/
+
+.rcb {
+    
+    background-color: #2b2a29;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(SRH)-------------------------------------------------------------------*/
+
+.srh {
+    
+    background-color: #ff822a;
+    
+}
+
+
+
+
+/*----------------------------------------------------------------CSS FOR TEAM (END)-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------CSS FOR VENUES (START)-----------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------VENUE SECTION--------------------------------------------------------------------*/
+
+.section-venue {
+    
+    padding: 0;
+    
+}
+
+
+
+
+.venue {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Graphics/Venue.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    
+}
+
+
+
+
+/*----------------------------------------------------------CHIDAMBARAM SECTION-------------------------------------------------------------------*/
+
+.chidanbaram {
+    
+    background-color:cornsilk;
+}
+
+
+.chennailayout-image {
+    
+    width: 75%;
+    
+}
+
+
+
+
+/*-----------------------------------------------------------------KOTLA SECTION-------------------------------------------------------------------------*/
+
+.kotla {
+    
+    background-color:blanchedalmond;
+}
+
+
+.delhilayout-image {
+    
+    width: 65%;
+    
+}
+
+
+
+
+/*-----------------------------------------------------------------BINDRA SECTION-------------------------------------------------------------------------*/
+
+.bindra {
+    
+    background-color:bisque;
+}
+
+
+.punjablayout-image {
+    
+    width: 70%;
+    
+}
+
+
+
+/*-----------------------------------------------------------------EDEN SECTION-------------------------------------------------------------------------*/
+
+.eden {
+    
+    background-color:beige;
+}
+
+
+.kolkatalayout-image {
+    
+    width: 75%;
+    
+}
+
+
+
+
+/*----------------------------------------------------------------WANKHEDA SECTION-------------------------------------------------------------------------*/
+
+.wankheda {
+    
+    background-color:cornsilk;
+}
+
+
+.mumbailayout-image {
+    
+    width: 60%;
+    
+}
+
+
+
+
+/*-----------------------------------------------------------------SAWAI SECTION-------------------------------------------------------------------------*/
+
+.sawai {
+    
+    background-color:blanchedalmond;
+}
+
+
+.rajasthanlayout-image {
+    
+    width: 75%;
+    
+}
+
+
+
+
+/*---------------------------------------------------------------CHINNASWAMY SECTION-----------------------------------------------------------------------*/
+
+.chinnaswani {
+    
+    background-color:bisque;
+}
+
+
+.bangalorelayout-image {
+    
+    width: 60%;
+    
+}
+
+
+
+
+/*---------------------------------------------------------------RAJIV GANDHI SECTION----------------------------------------------------------------------*/
+
+.GANDHI {
+    
+    background-color:beige;
+}
+
+
+.hyderabadlayout-image {
+    
+    width: 65%;
+    
+}
+
+
+/*For php admin*/
+
+
+/*For fixture*/
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+
+}
+tr:hover {
+    background-color: #4F91CD;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th {
+  background-color: #19388A;
+  color: white;
+}
+
+/*For fixture*/
+.form{
+    display: inline;
+}
+
+/*----------------------------------------------------------------CSS FOR VENUE (END)-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+Mumbai Indians, 0, 0, 0, 0, 0
+Chennai Super Kings, 0, 0, 0, 0, 0
+Delhi Capitals, 0, 0, 0, 0, 0
+Kings XI Punjab, 0, 0, 0, 0, 0
+Royal Challengers Bangalore, 0, 0, 0, 0, 0
+Kolkata Knight Riders, 0, 0, 0, 0, 0
+Sunrisers Hyderabad, 0, 0, 0, 0, 0
+Rajasthan Royals, 0, 0, 0, 0, 0
