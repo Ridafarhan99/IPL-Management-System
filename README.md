@@ -45,7 +45,6 @@ CREATE TABLE fixture (
 ```
 
 3. Create table points
-
 ```
 CREATE TABLE points (
     team VARCHAR(50) NOT NULL,
@@ -59,7 +58,6 @@ CREATE TABLE points (
 ```
 
 4. Create table users
-
 ```
 CREATE TABLE users (
     username VARCHAR(50) NOT NULL,
@@ -68,3 +66,15 @@ CREATE TABLE users (
 );
 
 ```
+
+## Step 2
+Download xampp.
+
+## Step 3
+Put the repository to xampp directory. (example: C:\xampp\htdocs)
+
+## Step 4
+Open the xampp-contol and start MySQL and Apache.
+
+## Step 5
+Open browser and put the url: http://localhost/IPL-Management-System/ press enter.
